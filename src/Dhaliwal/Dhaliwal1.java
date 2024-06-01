@@ -24,6 +24,7 @@ driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 driver.get("https://www.amazon.ca/gp/bestsellers/");
 Actions act=new Actions(driver);
 Thread.sleep(3000);
+// I am sravanthi
 act.click(driver.findElement(By.xpath("//a[@id='nav-hamburger-menu']"))).perform();
 Thread.sleep(4000);
 act.click(driver.findElement(By.xpath("//a[contains(text(),'Best Sellers')]/following-sibling::a[2]"))).click().perform();
