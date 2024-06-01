@@ -20,7 +20,7 @@ public class Dhaliwal1 {
 WebDriver driver=new ChromeDriver();
 driver.manage().window().maximize();
 driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
-
+//I am Priti
 driver.get("https://www.amazon.ca/gp/bestsellers/");
 Actions act=new Actions(driver);
 Thread.sleep(3000);
